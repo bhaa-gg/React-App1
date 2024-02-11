@@ -7,7 +7,7 @@ import {RouterProvider , createBrowserRouter} from 'react-router-dom';
 import UserLayout from './UserLayout/UserLayout';
 
 let route = createBrowserRouter([
-  {path:'/'  , element:<UserLayout/> ,children : [
+  {path:'/React-App1'  , element:<UserLayout/> ,children : [
     {index : true , element :<Main/> },
     {path : 'ABOUT' , element :<About/> },
     {path : 'PORTFOLIO' , element :<Portfolio /> },
@@ -19,7 +19,7 @@ let route = createBrowserRouter([
 function App() {
   return (
     <>
-      <RouterProvider router={route}/>
+      <RouterProvider  router={route}/>
 </>
   );
 }

@@ -6,7 +6,7 @@ export default function Nav() {
         <>
             <nav id="navbarz" className="navbar  w-100 position-fixed z-3 navbar-expand-lg py-4 ">
                 <div className="container">
-                    <NavLink className="navbar-brand fs-2  text-white  fw-bolder" to="/">START FRAMEWORK</NavLink>
+                    <NavLink className="navbar-brand fs-2  text-white  fw-bolder" to="/React-App1">START FRAMEWORK</NavLink>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon" />
                     </button>
